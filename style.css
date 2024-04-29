@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(112,212,213);
+}
+canvas {
+  display: block;
+  border: rgb(98, 97, 96);
+  border-width:1px ;
+  border-style: dashed;
+}

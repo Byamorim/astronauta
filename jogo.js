@@ -66,7 +66,7 @@ function setup() {
   //Criação do canvas
   canvas = createCanvas(1000, 300);
   //Posicionar o canvas no elemento HTML com as coordenadas x e y
-  canvas.position(150,130)
+  canvas.center();
   //Criação do perssonagem
   trex = createSprite(50,220,30,60);
   ground = createSprite(100,250,1000,20);
